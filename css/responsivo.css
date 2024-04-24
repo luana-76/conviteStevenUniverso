@@ -1,0 +1,40 @@
+@media screen and (min-width: 459px){
+
+    #cartaAberta{
+
+        font-size: 1.9vw;
+        height: 59vw;
+        width: 65%;    
+
+    }
+
+   #steven{width: 20vw;}
+
+}
+
+@media screen and (min-width: 863px){
+
+    #cartaAberta{
+
+        height: 46vw;
+        font-size: 1.5vw;
+        width: 65%;
+
+    }
+
+}
+
+/* Ajeitar essa parte */
+@media screen and (min-width: 1115px){
+
+    #cartaAberta{
+
+        font-size: 1.5vw;
+        height: 500px;
+        width: 65%;
+
+    }
+
+   #steven{width: 15vw;}
+   
+}

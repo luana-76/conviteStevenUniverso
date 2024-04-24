@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet"/>
+    <link href="./css/responsivo.css" rel="stylesheet"/>
+    <title>Convite Especial</title>
+
+</head>
+    <body>
+
+        <!-- Imagem do envelope -->
+        <svg id='envelope' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 225" width="300" height="225">
+            <!-- Retângulo escuro -->
+            <rect x="37.5" y="37.5" width="225" height="150" fill="#8A2BE2" stroke="#000000"/>
+            
+            <!-- Retângulo claro -->
+            <rect x="45" y="45" width="210" height="120" fill="#BA55D3" stroke="#000000"/>
+            
+            <!-- Triângulo -->
+            <polygon points="37.5,37.5 150,157.5 262.5,37.5" fill="#8A2BE2" stroke="#000000"/>
+            
+            <!-- Estrela -->
+            <polygon points="150,105 157.5,127.5 180,135 157.5,142.5 150,165 142.5,142.5 120,135 142.5,127.5" fill="#F7DC4F" stroke="#000000"/>
+        </svg>
+
+        <strong>Clique no envelope para abri-lo</strong>
+
+        <!-- Parte dois, quando o usuário clicar no envelope -->
+        <div id='cartaAberta'>
+       
+                <div>
+                    <p style="margin-top: 0;">Olá amor!</p>
+                    <p>Que tal uma tarde especial assistindo Steven Universo juntos?</p>
+                    <p>Gostaria de assistir um episódio ao meu lado? Por favor marque a enquete :)</p>
+
+                <img id='steven' src="https://tse2.mm.bing.net/th?id=OIP.OacESepva2FcOg_jbtYwkAHaF5&pid=Api&P=0&h=180" alt="Steven"/>
+
+                <div>
+
+                    <h3>Horários:<img width="20" height="20" src="https://img.icons8.com/ios/50/clock--v1.png" alt="clock--v1" style="vertical-align: middle;"/><h3>
+                    <div id="horarios">
+
+                        <div>17:00</div>
+                        <div>18:00</div>
+                        <div>19:00</div>
+
+                    </div>
+
+                </div>
+            </div>
+            <strong style='position: relative;bottom:-20px;'>Bom dia, princesa!</strong>
+
+        </div>
+        <script src="./js/acoes.js"></script>
+    </body>
+</html>

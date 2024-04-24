@@ -1,0 +1,68 @@
+body{
+
+    align-items: center;
+    background: #02010e;
+    color: #BA55D3;
+    display:flex;
+    flex-direction: column;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;    
+
+}
+
+/* Parte um */
+
+#envelope{
+
+    animation: moveEnvelope 2s infinite alternate;
+    position: relative;
+
+}
+
+@keyframes moveEnvelope {
+    0% {
+        top: -10px;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* Parte 2 */
+#cartaAberta{
+
+    background: #fff;
+    border-radius: 10px;
+    border: 5px solid #ba55d3;
+    display: none;
+    height: 133vw;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+
+}
+
+#horarios{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#horarios div{cursor: pointer;}
+
+img[alt='clock--v1']{margin-left: 5px;}
+
+#horarios div{
+
+    background: #ba55d36b;
+    padding: 5px;
+
+}
